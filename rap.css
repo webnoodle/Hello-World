@@ -41,11 +41,12 @@ img{
 
 .video {
   margin-left: 100px;
-  
+
 }
 
 .title {
     background-color: rgba(23, 20, 8, 0.5);
+    font-size: 45px;
 }
 
 .row {
