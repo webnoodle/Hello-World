@@ -1,0 +1,102 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 300px) {
+    p {
+        background-color: blue;
+    }
+}
+
+body {
+    background-image: url(http://www.windows10wallpapers.net/downloads/graffiti-streets-windows10wallpapers.jpg);
+}
+
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+.grid {
+    margin: 0 auto;
+    max-width: 2000px;
+    width: 100%;
+    background-color: rgba(23, 20, 8, 0.5);
+}
+
+.main {
+    width: 33.33%;
+    display: flex;
+
+}
+
+.main img {
+  margin-right: 100px;
+  margin-left: 100px;
+  height: 480px;
+}
+
+.video {
+  margin-left: 100px;
+  
+}
+
+.title {
+    background-color: rgba(23, 20, 8, 0.5);
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.row img {
+    height: 350px;
+}
+
+.row p {
+    margin-right: 35px;
+}
+
+.description {
+    margin-right: 20px;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+hr{
+  opacity: 0.5;
+  margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    margin-top: 5px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
